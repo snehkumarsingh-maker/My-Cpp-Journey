@@ -103,8 +103,8 @@ int main () {
         }
 
         cout<<a;
-        */
-       /*Home work question*/
+        
+      
 
         char ch;
 
@@ -123,7 +123,7 @@ int main () {
             cout<<"the answer is numeric"<<endl;
         }
 
-        
+        */
 
         
 
