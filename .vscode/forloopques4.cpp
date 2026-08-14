@@ -8,3 +8,4 @@ int main()  {
     }
     }
 }      
+//isme bhe yr mere ko i ki value o se 5 tk print ho rhi h but j ki value i ki value se start ho 
