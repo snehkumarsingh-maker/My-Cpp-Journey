@@ -25,4 +25,5 @@ int main () {
     cout <<"Enter the value of r:"<<endl;
     cin>>r;
     cout << "The value of nCr is: "<< nCr(n, r)<<endl;
+    COUT<< " The value of nCr is: "<< nCr(n, r)<<endl;
 }
