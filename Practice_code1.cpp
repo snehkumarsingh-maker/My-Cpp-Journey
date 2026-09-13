@@ -15,6 +15,7 @@ int main () {
     float firstfloat[6];
     bool firstbool[9];
 
-
-
 }
+
+
+
