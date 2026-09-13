@@ -43,10 +43,25 @@ int main()  { /*
     cout << " Value at ___ index " << third[8] << endl;
     int n = 15;
     cout << "Printing the array " << endl;
+
     // print the array
+
     for( int i = 0; i <n; i++)  {
         cout << third[i] << " ";
-        
-    }
     
+    }
+
+    int fourth[19] = {0};
+
+    n = 15;
+    cout << "Printing the array" << endl;
+
+    //printing the array 
+
+    for(int i = 0; i < n; i++) {
+        cout << fourth[i] <<" ";
+    }
+
+    cout << endl << "Everything is Fine " << endl << endl;
+
 }
