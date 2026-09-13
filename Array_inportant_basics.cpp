@@ -20,7 +20,7 @@ int main()  { /*
 
     return 0;
 
-    */
+    
 
     int num[3]={ 2, 89, 91 };
     
@@ -29,5 +29,24 @@ int main()  { /*
     cout << "value at 0th index " << num[0] << endl;
 
     cout << "Vallue at 1th Index " << num[1] << endl;
+    */
 
+    //initializing an array 
+    int second[3]= {2, 7, 11};
+
+    // accesing the element 
+    cout << "Value at 2nd index " << second[2] << endl;
+
+    int third[15]= {4,9};
+
+    // accesing the element
+    cout << " Value at ___ index " << third[8] << endl;
+    int n = 15;
+    cout << "Printing the array " << endl;
+    // print the array
+    for( int i = 0; i <n; i++)  {
+        cout << third[i] << " ";
+        
+    }
+    
 }
