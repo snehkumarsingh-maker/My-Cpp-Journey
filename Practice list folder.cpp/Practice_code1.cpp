@@ -1,21 +1,25 @@
 #include<iostream>
 using namespace std;
-
-int main () {
-    char ch[5] = {'a','b','c','r','p'};
-    cout<< ch[3]<<endl;
-    cout<< "Printing the array"<<endl;
-    //print the array
-    for (int i = 0; i < 5; i++) {
-    cout<< ch[i] << " ";
+/*
+void Printarray(int arr[], int size) {
+    cout << "Printing the array" << endl;
+    // Print the array 
+    for(int i = 0; i < size; i++)   {
+        cout << arr[i] << " " << endl;
     }
-    cout<< "Printing done";
-    
-    double firstdouble[5];
-    float firstfloat[6];
-    bool firstbool[9];
-
+    cout << "Printing array" << endl;
 }
 
+int main()  {
+int yoyo_honeysingh[4] = {1,23,56 };
+    int n1 = 6;
+    Printarray(yoyo_honeysingh, 6);
 
+int third[15]= {4,9};
+    int n3 = 15;
+    Printarray(third,15);
+}
+*/
+
+void PrintArray(int arr[],int size)  {}
 

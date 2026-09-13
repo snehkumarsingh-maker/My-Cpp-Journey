@@ -43,30 +43,14 @@ int main()  { /*
     cout << "Value at 2nd index " << second[2] << endl;
 
     int third[15]= {4,9};
-
-    // accesing the element
-    cout << " Value at ___ index " << third[8] << endl;
     int n = 15;
-    cout << "Printing the array " << endl;
-
-    // print the array
-
-    for( int i = 0; i <n; i++)  {
-        cout << third[i] << " ";
+    printArray(third,15);
     
-    }
+    //initializing all locations with 0
 
     int fourth[19] = {0};
-
     n = 15;
-    cout << "Printing the array" << endl;
-
-    //printing the array 
-
-    for(int i = 0; i < n; i++) {
-        cout << fourth[i] <<" ";
-    }
-
+    printArray(fourth, 15);
     cout << endl << "Everything is Fine " << endl << endl;
 
 }
