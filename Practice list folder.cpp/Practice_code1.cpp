@@ -49,7 +49,7 @@ void PrintArray(int arr[],int size) {
     cout << " Printing the array "<< endl;
 
     for(int i = 1; i < size; i++)   {
-        cout << "arr[i]" <<" "<<endl;
+        cout << arr[i] <<" "<<endl;
     }
 cout << "Printing Done" << endl;
 }
@@ -59,7 +59,7 @@ int main()  {
     int n = 1;
     PrintArray(sneh,n);
 }
-*/
+
 void PrintArray(int arr[], int size)    {
     cout << " Printing the array "<< endl;
 
@@ -73,11 +73,50 @@ void PrintArray(int arr[], int size)    {
 int main()  {
     int sneh[2]= {1,2};
     int n = 2;
-
     PrintArray(sneh,n);
+    int snehsize = sizeof(sneh)/sizeof(int);
+    cout << " size of sneh " << snehsize << endl;
 
     int fifth[10]={1};
     n = 10;
     PrintArray(fifth,n);
+    int fifthsize = sizeof(fifth)/sizeof(int);
+    cout << "Size of fifth" << fifthsize << endl;
+
+    int Uzma[10] = {0,8,76};
+    int m = 10;
+    PrintArray(Uzma,m);
+    int Uzmahight = sizeof(Uzma)/sizeof(int);
+    cout << "Hight of Uzma Ma'am = " << Uzmahight << "cm" << endl;
+
 }
+    */
+
+void printcharacter(int arr[], int size) {
+    cout << "Printing the array" << endl;
+
+    for(int i = 0; i < size; i++)   {
+      cout << arr[i] << endl;
+
+    }
+      
+    cout << "Printing Done" << endl;
+}
+
+int main()  {
+    char ch[5] = {'a', 'b', 's', 'd', 'g'};
+    cout << ch[3] << endl;
+
+     cout << "Printing the array" << endl;
+
+    for(int i = 0; i < 5; i++)   {
+      cout << ch[i] << endl;
+
+    }
+      
+    cout << "Printing Done" << endl;
+
+}
+
+
 
