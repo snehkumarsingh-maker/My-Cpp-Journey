@@ -18,7 +18,7 @@ int main() {
     int key;
 
      cout << " Enter the key " << endl;
-     
+
     cin>>key;
 
    
@@ -32,8 +32,6 @@ int main() {
     else {
         cout << "Key is absent "<< endl;
     }
-
-
 
 
 }
