@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 int getMax(int num[], int n)    {
          
     int max = INT_MIN;
@@ -24,5 +25,8 @@ int main ()     {
 
 cout << getMax(num,size) << endl;
 }
-    
-    
+
+
+// Question in maxima and minima of an array 
+
+
