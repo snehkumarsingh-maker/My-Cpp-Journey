@@ -22,7 +22,7 @@ This repository contains well-structured C++ solutions and concept implementatio
 
 I am always eager to discuss technology, problem-solving approaches, and open-source opportunities!
 
- Name: Sneh Singh
+ Name: Sneh Singh         
  LinkedIn: https://www.linkedin.com/in/sneh-kumar-singh-153024419/      
  X: https://x.com/sneh_singh07
 
