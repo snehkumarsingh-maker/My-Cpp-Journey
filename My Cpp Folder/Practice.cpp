@@ -1,4 +1,4 @@
-/ 8. Inverted Pyramid
+// 8. Inverted Pyramid
 #include <iostream>
 using namespace std;
 
